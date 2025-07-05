@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Subject activity
+        </title>
+    </head>
+    <body>
+        <h1>
+            Subject Activity
+        </h1>
+        <form action="action_page.php" oninput="x.value=(parseInt(s1.value)+ parseInt(s2.value) + parseInt(s3.value)) / 3">
+            <fieldset>
+                <legend>
+                    Enter Your Marks
+                </legend>
+                <label>
+                    Name
+                </label>
+                <input type="text" id="name"><br>
+                <select name="subject" id="subject">
+                    <option value="Math">
+                        Math
+                    </option>
+                    <option value="Physics">
+                        Physics
+                    </option>
+                    <option value="Chemistry">
+                        Chemistry
+                    </option>
+                </select>
+                <input type="number" id="s1" name="s1"><br>
+                <select name="subject" id="subject">
+                    <option value="Math">
+                        Math
+                    </option>
+                    <option value="Physics">
+                        Physics
+                    </option>
+                    <option value="Chemistry">
+                        Chemistry
+                    </option>
+                </select>
+                <input type="number" id="s2" name="s2"><br>
+                <select name="subject" id="subject">
+                    <option value="Math">
+                        Math
+                    </option>
+                    <option value="Physics">
+                        Physics
+                    </option>
+                    <option value="Chemistry">
+                        Chemistry
+                    </option>
+                </select>
+                <input type="number" id="s3" name="s3"><br>
+                Average:<output name="x" for="s1 s2 s3 ">
+                    
+                </output>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
